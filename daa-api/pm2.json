@@ -1,0 +1,11 @@
+{
+  "apps" : [
+    {
+      "name": "daa-api",
+      "interpreter": "/bin/bash",
+      "script": "launch.bash",
+      "out_file": "/var/log/daa-api.log",
+      "error_file": "/var/log/daa-api.err",
+    }
+  ]
+}
